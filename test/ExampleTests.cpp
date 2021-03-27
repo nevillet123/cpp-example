@@ -24,3 +24,7 @@ TEST_F(ExampleTests, isTrue_shouldBeTrue){
   Example aExample("true");
   EXPECT_TRUE(aExample.isTrue());
 }
+
+TEST_F(ExampleTests, shouldAlwaysFail){
+  EXPECT_TRUE(false);
+}
